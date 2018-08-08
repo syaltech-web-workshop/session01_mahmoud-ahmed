@@ -1,35 +1,28 @@
 <?php
 
-$a = 5;
-$b = 10;
-//echo $a;
 
-function x()
-{
-//    print_r("inside x func\n");
-//    global $a, $b;
-//    $b = $a + $b;
-    $GLOBALS['b'] = $GLOBALS['a'] + $GLOBALS['b'];
-}
-
-//print_r($GLOBALS['a']);
+//$array = [1,2,3];
 //
-//echo "\n";
-//
-//x();
-//
-//echo $b;
+//var_dump($array);
 
-function y()
-{
-    static $a = 1;
-    echo $a;
-    echo " before \n";
-    $a++;
-    echo $a;
-    echo " after \n";
-}
+//class Car {
+//    function Car() {
+//        $this->model = "VW";
+//    }
+//
+//
+//}
+//
+//$herbie = new Car();
+//
+//echo $herbie->model;
 
-y();
-y();
-y();
+$x = "Hello world!";
+
+$position = strpos($x, ",");
+
+echo $position;
+
+$y = false;
+
+echo $y;
